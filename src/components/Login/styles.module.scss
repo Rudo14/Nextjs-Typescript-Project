@@ -1,0 +1,16 @@
+.login_box{
+  :global{
+    .ant-image-mask {
+      display: none;
+    }
+    .ant-image-preview-body {
+      display: none;
+    }
+    .ant-row{
+      display: block;
+    }
+    .ant-form-item-label > label::after{
+      display: none;
+    }
+  }
+}

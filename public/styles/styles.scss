@@ -1,0 +1,57 @@
+body {
+  background-color: #edf0f5;
+  .ant-form-item-label {
+    font-size: 14px;
+    color: #2d2d2d;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    font-family: sans-serif;
+  }
+  .registr-box {
+    display: flex;
+    justify-content: center;
+    .middle-box {
+      background-color: #fff;
+      margin-top: 100px;
+      padding: 50px 90px 90px 90px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+      .title-box-bar {
+        h1{
+          color: #7952b3;
+          font-family: sans-serif;
+          text-align: center;
+          font-weight: bold;
+        }
+      }
+      .form-box-bar {
+        .ant-form-item {
+          display: flow-root;          
+        }
+        .ant-form-item {
+          margin-top: 15px;
+          margin-bottom: 0!important;
+        }
+        .unblock-password {
+          position: absolute !important;
+          margin-left: -20px !important;
+          margin-top: 9px !important;
+        }
+      }
+      .signup-text {
+        float: right;
+        margin-top: 30px;
+        color: #7952b3;
+        font-family: sans-serif;
+        cursor: pointer;
+      }
+    }
+  }
+  .error {
+    color: red;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: -26px;
+    margin-top: 15px;
+  }
+}

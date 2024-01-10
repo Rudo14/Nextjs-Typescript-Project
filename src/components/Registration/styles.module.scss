@@ -1,0 +1,19 @@
+.registr_box{
+  .registration_middle_box {
+    margin-top: 50px !important;
+  }
+  :global{
+    .ant-image-mask {
+      display: none;
+    }
+    .ant-image-preview-body {
+      display: none;
+    }
+    .ant-row{
+      display: block;
+    }
+    .ant-form-item-label > label::after{
+      display: none;
+    }
+  }
+}

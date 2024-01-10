@@ -1,0 +1,25 @@
+
+  .dashboard_box {
+    background-color: #fff !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    .welcome_box {
+      display: flex;
+      h1 {
+        font-size: 60px;
+        font-family: monospace;
+        margin-left: -21px;
+      }
+      img {
+        height: 60px;
+        width: 150px;
+        margin-top: 10px;
+      }
+    }
+    .dashboard_button {
+      margin-left: 55px;
+    }
+  }
+
